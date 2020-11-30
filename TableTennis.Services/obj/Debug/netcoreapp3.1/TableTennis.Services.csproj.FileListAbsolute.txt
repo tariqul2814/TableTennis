@@ -1,0 +1,17 @@
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.Services.deps.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.Services.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.csprojAssemblyReference.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.AssemblyInfoInputs.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.AssemblyInfo.cs
+F:\Projects\SELF\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.Services.deps.json
+F:\Projects\SELF\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.Services.dll
+F:\Projects\SELF\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.Services.pdb
+F:\Projects\SELF\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+F:\Projects\SELF\TableTennis\TableTennis.Services\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.csprojAssemblyReference.cache
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.AssemblyInfoInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.AssemblyInfo.cs
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.csproj.CoreCompileInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.csproj.CopyComplete
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.dll
+F:\Projects\SELF\TableTennis\TableTennis.Services\obj\Debug\netcoreapp3.1\TableTennis.Services.pdb

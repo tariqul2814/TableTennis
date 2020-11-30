@@ -1,0 +1,31 @@
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.deps.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.csprojAssemblyReference.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfo.cs
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.dev.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.genruntimeconfig.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.deps.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.dev.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.csprojAssemblyReference.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfo.cs
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.genruntimeconfig.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.deps.json
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.json
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.runtimeconfig.dev.json
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.csprojAssemblyReference.cache
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfoInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.AssemblyInfo.cs
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.csproj.CoreCompileInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+F:\Projects\SELF\TableTennis\TableTennis.DataAccess\obj\Debug\netcoreapp3.1\TableTennis.DataAccess.genruntimeconfig.cache

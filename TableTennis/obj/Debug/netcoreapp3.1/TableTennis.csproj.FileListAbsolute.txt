@@ -1,0 +1,213 @@
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.exe
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csprojAssemblyReference.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfoInputs.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfo.cs
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.RazorTargetAssemblyInfo.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.Manifest.cache
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.xml
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csproj.CopyComplete
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Md. Atiqur Rahman\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.exe
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.deps.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.runtimeconfig.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.runtimeconfig.dev.json
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.pdb
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csprojAssemblyReference.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfoInputs.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfo.cs
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csproj.CoreCompileInputs.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.RazorTargetAssemblyInfo.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csproj.CopyComplete
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.Manifest.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.xml
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.pdb
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.genruntimeconfig.cache
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Tariqul\source\repos\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.Services.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.Development.json
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\appsettings.json
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.exe
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.deps.json
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.runtimeconfig.json
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.runtimeconfig.dev.json
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.pdb
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.Services.dll
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.DataAccess.pdb
+F:\Projects\SELF\TableTennis\TableTennis\bin\Debug\netcoreapp3.1\TableTennis.Services.pdb
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csprojAssemblyReference.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfoInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.AssemblyInfo.cs
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csproj.CoreCompileInputs.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.MvcApplicationPartsAssemblyInfo.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.Manifest.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\staticwebassets\TableTennis.StaticWebAssets.xml
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\scopedcss\bundle\TableTennis.styles.css
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.RazorTargetAssemblyInfo.cache
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.csproj.CopyComplete
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.dll
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.pdb
+F:\Projects\SELF\TableTennis\TableTennis\obj\Debug\netcoreapp3.1\TableTennis.genruntimeconfig.cache
