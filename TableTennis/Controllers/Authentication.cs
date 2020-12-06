@@ -40,7 +40,6 @@ namespace TableTennis.Controllers
         }
 
         [HttpGet("Login")]
-        [Authorize(Roles = "SuperAdmin,User")]
         public async Task<IActionResult> Login(loginDTO loginDTO)
         {
             var user = await _userManager.FindByEmailAsync(loginDTO.UserName);
