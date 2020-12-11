@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using TableTennis.DataAccess.Entities.Common;
 
 namespace TableTennis.DataAccess.Entities
 {
-    public class TeamMatch
+    public class TeamMatch : AuditEntity
     {
         public int Id { get; set; }
         public int Point { get; set; }
