@@ -8,7 +8,7 @@ namespace TableTennis.DataAccess.Entities
     public class Schedule : AuditEntity
     {
         public int Id { get; set; }
-        public DateTime MatchDate { get; set; }
+        public string MatchDay { get; set; }
         public ICollection<TeamMatch> TeamMatches { get; set; }
     }
 }
