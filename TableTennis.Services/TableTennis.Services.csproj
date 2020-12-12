@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="TeamMember\" />
     <Folder Include="TeamMatch\" />
-    <Folder Include="Team\" />
   </ItemGroup>
 
   <ItemGroup>
