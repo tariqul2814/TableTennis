@@ -12,7 +12,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using TableTennis.DataAccess.DBContext;
 using TableTennis.Services.DTO.Auth;
-using TableTennis.Services.Schedule;
 
 namespace TableTennis.Controllers
 {

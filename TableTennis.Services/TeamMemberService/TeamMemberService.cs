@@ -14,23 +14,7 @@ namespace TableTennis.Services.TeamMemberService
         {
             _uow = uoW;
         }
-        public bool CreateTeamMember(TeamMemberDTO teamMemberDTO)
-        {
-            try
-            {
-                if(teamMemberDTO!=null || teamMemberDTO.TeamMemberName !="")
-                {
-                    TeamMember 
-                }
-                else
-                {
-
-                }
-            }catch(Exception er)
-            {
-                return false;
-            }
-        }
+        
     }
     public interface ITeamMemberService
     {

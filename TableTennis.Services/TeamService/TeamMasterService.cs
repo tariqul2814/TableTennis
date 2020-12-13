@@ -11,7 +11,7 @@ using TableTennis.Services.DTO.TeamService;
 
 namespace TableTennis.Services.TeamService
 {
-    public class TeamMasterService : ITeamService
+    public class TeamMasterService : ITeamMasterService
     {
         private readonly IUoW uow;
         public TeamMasterService(IUoW _uow)
@@ -156,7 +156,7 @@ namespace TableTennis.Services.TeamService
 
     }
 
-    public interface ITeamService
+    public interface ITeamMasterService
     {
         Team GetTeamById(int TeamId);
         List<Team> GetAllTeam();
