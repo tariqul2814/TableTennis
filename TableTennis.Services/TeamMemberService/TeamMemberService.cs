@@ -93,7 +93,9 @@ namespace TableTennis.Services.TeamMemberService
             {
                 checkAvailability.IsRemove = false;
                 checkAvailability.ModifiedBy = UserId;
-                _uow.TeamMemberRepository.Update();
+                checkAvailability.Team = null;
+                checkAvailability.TeamId = 0;
+                _uow.TeamMemberRepository.Update(checkAvailability);
                 _uow.Commit();
                 return true;
             }

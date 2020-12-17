@@ -32,7 +32,7 @@ namespace TableTennis.Services.TeamService
 
         public List<Team> GetAllTeam()
         {
-            return uow.TeamRepository.GetAll().Select(x => new Team
+            return uow.TeamRepository.Get(x=> x.IsRemove!=false).Select(x => new Team
             {
                 Id = x.Id,
                 Point = x.Point,
@@ -154,6 +154,89 @@ namespace TableTennis.Services.TeamService
             }
         }
 
+        public bool AddTeamMemberIntoTeam(TeamDTO team, string UserId)
+        {
+            if(team.Id > 0)
+            {
+                var checkValidationOfTeam = uow.TeamRepository.Get(x => x.Id == team.Id && !x.IsRemove).FirstOrDefault();
+
+                if(checkValidationOfTeam!=null)
+                {
+                    if(team.TeamMembers.Count <= 2)
+                    {
+                        List<TeamMember> teamMembers = new List<TeamMember>();
+
+                        bool IsRemoveTeamMember = false;
+                        foreach(var value in team.TeamMembers)
+                        {
+                            var checkValidationOfTeamMember = uow.TeamMemberRepository.Get(x => x.Id == value.Id && !x.IsRemove).FirstOrDefault();
+
+                            if((checkValidationOfTeamMember !=null && checkValidationOfTeamMember.Team == null && checkValidationOfTeamMember.TeamId == 0) 
+                                                                || (checkValidationOfTeamMember != null && checkValidationOfTeamMember.TeamId == team.Id))
+                            {
+                                checkValidationOfTeamMember.TeamId = team.Id;
+                                checkValidationOfTeamMember.Team = checkValidationOfTeam;
+                                checkValidationOfTeamMember.ModifiedBy = UserId;
+                                checkValidationOfTeamMember.ModifiedDate = DateTime.Now;
+                                teamMembers.Add(checkValidationOfTeamMember);
+                            }
+                            else
+                            {
+                                IsRemoveTeamMember = true;
+                                break;
+                            }
+                        }
+
+                        if(IsRemoveTeamMember == false)
+                        {
+                            foreach (var value in checkValidationOfTeam.TeamMembers)
+                            {
+                                value.ModifiedBy = UserId;
+                                value.ModifiedDate = DateTime.Now;
+                                value.Team = null;
+                                value.TeamId = 0;
+
+                                uow.TeamMemberRepository.Update(value);
+                                uow.Commit();
+                            }
+
+                            teamMembers.ForEach(x => { uow.TeamMemberRepository.Update(x); uow.Commit(); });
+                            checkValidationOfTeam.TeamMembers = teamMembers;
+                            uow.TeamRepository.Update(checkValidationOfTeam);
+                            uow.Commit();
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public List<TeamMemberDTO> GetTeamMemberByTeam(int TeamId)
+        {
+            return uow.TeamRepository.Get(x => x.Id == TeamId).FirstOrDefault().TeamMembers.Select(y => new TeamMemberDTO {
+                    Id = y.Id,
+                    TeamId = y.TeamId,
+                    TeamMemberName = y.TeamMemberName,
+                    Team = new TeamDTO { Id = y.Team.Id, Point = y.Team.Point, TeamName = y.Team.TeamName }
+            }).ToList();
+        }
+
     }
 
     public interface ITeamMasterService
@@ -163,5 +246,9 @@ namespace TableTennis.Services.TeamService
         bool DeleteTeam(int TeamId, string UserId);
 
         bool CreateOrUpdateTeam(TeamDTO team, string UserId);
+
+        bool AddTeamMemberIntoTeam(TeamDTO team, string UserId);
+
+        List<TeamMemberDTO> GetTeamMemberByTeam(int TeamId);
     }
 }
