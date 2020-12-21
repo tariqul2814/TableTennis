@@ -236,7 +236,7 @@ namespace TableTennis.Services.TeamService
                     Team = new TeamDTO { Id = y.Team.Id, Point = y.Team.Point, TeamName = y.Team.TeamName }
             }).ToList();
         }
-
+            
     }
 
     public interface ITeamMasterService

@@ -82,6 +82,18 @@ namespace TableTennis.Controllers
             return Ok(_teamMasterService.GetAllTeam());
         }
 
+        [HttpGet("TeamMember")]
+        public async Task<IActionResult> AddTeamMemberIntoTeam(TeamDTO teamDTO)
+        {
+            if (_teamMasterService.AddTeamMemberIntoTeam(teamDTO, User.FindFirstValue(ClaimTypes.NameIdentifier)))
+            {
+                return Ok(teamDTO);
+            }
+            else
+            {
+                return BadRequest(teamDTO);
+            }
+        }
 
     }
 }
