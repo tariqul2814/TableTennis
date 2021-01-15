@@ -19,27 +19,26 @@ namespace TableTennis.Services.TeamService
             uow = _uow;
         }
 
-        public Team GetTeamById(int TeamId)
+        public TeamDTO GetTeamById(int TeamId)
         {
-            return uow.TeamRepository.Get(x => x.IsRemove == false && x.Id == TeamId).Select(x=> new Team {
-                Id = x.Id,
-                Point = x.Point,
-                TeamName = x.TeamName,
-                TeamMatches = x.TeamMatches,
-                TeamMembers = x.TeamMembers
-            }).FirstOrDefault();
+            return uow.TeamRepository.Get(x => x.IsRemove == false && x.Id == TeamId).Select(
+                    y=> new TeamDTO
+                    {
+                        Id = y.Id,
+                        TeamName = y.TeamName
+
+                    }).FirstOrDefault();
         }
 
-        public List<Team> GetAllTeam()
+        public List<TeamDTO> GetAllTeam()
         {
-            return uow.TeamRepository.Get(x=> x.IsRemove!=false).Select(x => new Team
-            {
-                Id = x.Id,
-                Point = x.Point,
-                TeamName = x.TeamName,
-                TeamMatches = x.TeamMatches,
-                TeamMembers = x.TeamMembers
-            }).ToList();
+            return uow.TeamRepository.Get(x=> x.IsRemove!=false).Select(
+                    y=> new TeamDTO
+                    {
+                        Id = y.Id,
+                        TeamName = y.TeamName
+                    }
+                ).ToList();
         }
 
         public bool CreateOrUpdateTeam(TeamDTO team, string UserId)
@@ -57,13 +56,12 @@ namespace TableTennis.Services.TeamService
                         {
                             Id = team.Id,
                             TeamName = team.TeamName,
-                            Point = checkAvailableTeam.Point,
                             CreateDate = checkAvailableTeam.CreateDate,
                             CreatedBy = checkAvailableTeam.CreatedBy,
                             IsRemove = false,
                             ModifiedBy = UserId,
                             ModifiedDate = DateTime.Now,
-                            TeamMatches = checkAvailableTeam.TeamMatches,
+                            TeamMatchMappings = checkAvailableTeam.TeamMatchMappings,
                             TeamMembers = checkAvailableTeam.TeamMembers
                         };
 
@@ -78,13 +76,12 @@ namespace TableTennis.Services.TeamService
                         {
                             Id = team.Id,
                             TeamName = team.TeamName,
-                            Point = checkAvailableTeam.Point,
                             CreateDate = checkAvailableTeam.CreateDate,
                             CreatedBy = checkAvailableTeam.CreatedBy,
                             IsRemove = false,
                             ModifiedBy = UserId,
                             ModifiedDate = DateTime.Now,
-                            TeamMatches = checkAvailableTeam.TeamMatches,
+                            TeamMatchMappings = checkAvailableTeam.TeamMatchMappings,
                             TeamMembers = checkAvailableTeam.TeamMembers
                         };
 
@@ -103,13 +100,12 @@ namespace TableTennis.Services.TeamService
                     var InsertTeam = new Team
                     {
                         TeamName = team.TeamName,
-                        Point = team.Point,
                         CreateDate = DateTime.Now,
                         CreatedBy = UserId,
                         IsRemove = false,
                         ModifiedBy = UserId,
                         ModifiedDate = DateTime.Now,
-                        TeamMatches = null,
+                        TeamMatchMappings = null,
                         TeamMembers = null
                     };
 
@@ -137,6 +133,21 @@ namespace TableTennis.Services.TeamService
                     checkAvalaibility.IsRemove = false;
                     checkAvalaibility.ModifiedBy = UserId;
                     checkAvalaibility.ModifiedDate = DateTime.Now;
+                    checkAvalaibility.TeamMembers = null;
+
+                    var TeamMembers = checkAvalaibility.TeamMembers;
+
+                    if(TeamMembers.Count!=0)
+                    {
+                        foreach(var TeamMember in TeamMembers)
+                        {
+                            TeamMember.Team = null;
+                            TeamMember.TeamId = 0;
+
+                            uow.TeamMemberRepository.Update(TeamMember);
+                            uow.Commit();
+                        }
+                    }
 
                     uow.TeamRepository.Update(checkAvalaibility);
                     uow.Commit();
@@ -154,67 +165,27 @@ namespace TableTennis.Services.TeamService
             }
         }
 
-        public bool AddTeamMemberIntoTeam(TeamDTO team, string UserId)
+        public bool AddTeamMemberIntoTeam(int TeamId, int TeamMemberId, string UserId)
         {
-            if(team.Id > 0)
+            var TeamMember = uow.TeamMemberRepository.GetByID(TeamMemberId);
+            var Team = uow.TeamRepository.GetByID(TeamId);
+            if(TeamMember!=null && TeamMember.Team==null && TeamMember.IsRemove==false && Team!=null && Team.IsRemove==false)
             {
-                var checkValidationOfTeam = uow.TeamRepository.Get(x => x.Id == team.Id && !x.IsRemove).FirstOrDefault();
-
-                if(checkValidationOfTeam!=null)
+                if(Team.TeamMembers.Count<2)
                 {
-                    if(team.TeamMembers.Count <= 2)
-                    {
-                        List<TeamMember> teamMembers = new List<TeamMember>();
+                    Team.ModifiedBy = UserId;
+                    Team.ModifiedDate = DateTime.Now;
 
-                        bool IsRemoveTeamMember = false;
-                        foreach(var value in team.TeamMembers)
-                        {
-                            var checkValidationOfTeamMember = uow.TeamMemberRepository.Get(x => x.Id == value.Id && !x.IsRemove).FirstOrDefault();
+                    Team.TeamMembers.Add(TeamMember);
+                    TeamMember.Team = Team;
+                    TeamMember.ModifiedBy = UserId;
+                    TeamMember.ModifiedDate = DateTime.Now;
 
-                            if((checkValidationOfTeamMember !=null && checkValidationOfTeamMember.Team == null && checkValidationOfTeamMember.TeamId == 0) 
-                                                                || (checkValidationOfTeamMember != null && checkValidationOfTeamMember.TeamId == team.Id))
-                            {
-                                checkValidationOfTeamMember.TeamId = team.Id;
-                                checkValidationOfTeamMember.Team = checkValidationOfTeam;
-                                checkValidationOfTeamMember.ModifiedBy = UserId;
-                                checkValidationOfTeamMember.ModifiedDate = DateTime.Now;
-                                teamMembers.Add(checkValidationOfTeamMember);
-                            }
-                            else
-                            {
-                                IsRemoveTeamMember = true;
-                                break;
-                            }
-                        }
+                    uow.TeamRepository.Update(Team);
+                    uow.TeamMemberRepository.Update(TeamMember);
 
-                        if(IsRemoveTeamMember == false)
-                        {
-                            foreach (var value in checkValidationOfTeam.TeamMembers)
-                            {
-                                value.ModifiedBy = UserId;
-                                value.ModifiedDate = DateTime.Now;
-                                value.Team = null;
-                                value.TeamId = 0;
-
-                                uow.TeamMemberRepository.Update(value);
-                                uow.Commit();
-                            }
-
-                            teamMembers.ForEach(x => { uow.TeamMemberRepository.Update(x); uow.Commit(); });
-                            checkValidationOfTeam.TeamMembers = teamMembers;
-                            uow.TeamRepository.Update(checkValidationOfTeam);
-                            uow.Commit();
-                            return true;
-                        }
-                        else
-                        {
-                            return false;
-                        }
-                    }
-                    else
-                    {
-                        return false;
-                    }
+                    uow.Commit();
+                    return true;
                 }
                 else
                 {
@@ -233,22 +204,61 @@ namespace TableTennis.Services.TeamService
                     Id = y.Id,
                     TeamId = y.TeamId,
                     TeamMemberName = y.TeamMemberName,
-                    Team = new TeamDTO { Id = y.Team.Id, Point = y.Team.Point, TeamName = y.Team.TeamName }
+                    Team = new TeamDTO { Id = y.Team.Id, TeamName = y.Team.TeamName }
             }).ToList();
         }
-            
+
+        public bool RemoveTeamMemberFromTeam(int TeamId, int TeamMemberId, string UserId)
+        {
+            var TeamMember = uow.TeamMemberRepository.GetByID(TeamMemberId);
+
+            if(TeamMember!=null)
+            {
+                if(TeamMember.Team.Id == TeamId)
+                {
+                    if(TeamMember.Team.IsRemove==false)
+                    {
+                        TeamMember.Team = null;
+                        TeamMember.TeamId = 0;
+                        TeamMember.ModifiedBy = UserId;
+                        TeamMember.ModifiedDate = DateTime.Now;
+
+                        uow.TeamMemberRepository.Update(TeamMember);
+                        uow.Commit();
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 
     public interface ITeamMasterService
     {
-        Team GetTeamById(int TeamId);
-        List<Team> GetAllTeam();
+        TeamDTO GetTeamById(int TeamId);
+        List<TeamDTO> GetAllTeam();
         bool DeleteTeam(int TeamId, string UserId);
 
         bool CreateOrUpdateTeam(TeamDTO team, string UserId);
 
-        bool AddTeamMemberIntoTeam(TeamDTO team, string UserId);
+        bool AddTeamMemberIntoTeam(int TeamId, int TeamMemberId, string UserId);
+
+        bool RemoveTeamMemberFromTeam(int TeamId, int TeamMemberId, string UserId);
 
         List<TeamMemberDTO> GetTeamMemberByTeam(int TeamId);
+
     }
 }

@@ -41,6 +41,11 @@ namespace TableTennis.DataAccess.UnitOfWork
             get { return new Repository<TeamMember>(DbContext); }
         }
 
+        public IRepository<TeamMatchMapping> TeamMatchMappingRepository
+        {
+            get { return new Repository<TeamMatchMapping>(DbContext); }
+        }
+
         public IRepository<ApplicationUser> ApplicationUserRepository
         {
             get { return new Repository<ApplicationUser>(DbContext); }
@@ -55,6 +60,8 @@ namespace TableTennis.DataAccess.UnitOfWork
         IRepository<Team> TeamRepository { get; }
         IRepository<TeamMatch> TeamMatchRepository { get; }
         IRepository<TeamMember> TeamMemberRepository { get; }
+
+        IRepository<TeamMatchMapping> TeamMatchMapping { get; }
 
         IRepository<ApplicationUser> ApplicationUserRepository { get; }
 

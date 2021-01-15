@@ -11,8 +11,7 @@ namespace TableTennis.Services.DTO.TeamService
     {
         public int Id { get; set; }
         public string TeamName { get; set; }
-        public int Point { get; set; }
         public ICollection<TeamMemberDTO> TeamMembers { get; set; }
-        public ICollection<TeamMatchDTO> TeamMatches { get; set; }
+        public ICollection<TeamMatchMappingsDTO> TeamMatchMappings { get; set; }
     }
 }

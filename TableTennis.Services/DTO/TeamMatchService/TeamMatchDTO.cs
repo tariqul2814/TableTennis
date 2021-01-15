@@ -9,9 +9,7 @@ namespace TableTennis.Services.DTO.TeamMatchService
     public class TeamMatchDTO
     {
         public int Id { get; set; }
-        public int Point { get; set; }
-        public int TeamId { get; set; }
-        public TeamDTO Team { get; set; }
+        public List<TeamMatchMappingsDTO> TeamMatchMappings { get; set; }
         public ScheduleDTO Schedule { get; set; }
         public int ScheduleId { get; set; }
     }

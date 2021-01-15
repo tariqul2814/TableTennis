@@ -82,16 +82,29 @@ namespace TableTennis.Controllers
             return Ok(_teamMasterService.GetAllTeam());
         }
 
-        [HttpGet("TeamMember")]
-        public async Task<IActionResult> AddTeamMemberIntoTeam(TeamDTO teamDTO)
+        [HttpGet("AddTeamMember")]
+        public async Task<IActionResult> AddTeamMemberFromTeam(int TeamId, int TeamMemberId)
         {
-            if (_teamMasterService.AddTeamMemberIntoTeam(teamDTO, User.FindFirstValue(ClaimTypes.NameIdentifier)))
+            if (_teamMasterService.AddTeamMemberIntoTeam(TeamId, TeamMemberId, User.FindFirstValue(ClaimTypes.NameIdentifier)))
             {
-                return Ok(teamDTO);
+                return Ok();
             }
             else
             {
-                return BadRequest(teamDTO);
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("RemoveTeamMember")]
+        public async Task<IActionResult> RemoveTeamMemberFromTeam(int TeamId, int TeamMemberId)
+        {
+            if (_teamMasterService.RemoveTeamMemberFromTeam(TeamId, TeamMemberId, User.FindFirstValue(ClaimTypes.NameIdentifier)))
+            {
+                return Ok();
+            }
+            else
+            {
+                return BadRequest();
             }
         }
 

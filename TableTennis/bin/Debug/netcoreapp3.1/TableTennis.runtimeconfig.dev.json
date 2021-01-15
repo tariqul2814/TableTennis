@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\tariq\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\tariq\\.nuget\\packages"
-    ]
-  }
-}

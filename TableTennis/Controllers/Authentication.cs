@@ -88,6 +88,7 @@ namespace TableTennis.Controllers
 
         }
 
+        [HttpGet]
         [Authorize(Roles = "SuperAdmin,User")]
         public async Task<IActionResult> Registration(RegistrationDTO registrationDTO)
         {

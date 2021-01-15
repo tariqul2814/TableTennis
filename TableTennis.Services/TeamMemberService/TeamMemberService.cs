@@ -91,8 +91,9 @@ namespace TableTennis.Services.TeamMemberService
             var checkAvailability = _uow.TeamMemberRepository.Get(x => x.Id == TeamMemberId && !x.IsRemove).FirstOrDefault();
             if(checkAvailability!=null)
             {
-                checkAvailability.IsRemove = false;
+                checkAvailability.IsRemove = true;
                 checkAvailability.ModifiedBy = UserId;
+                checkAvailability.ModifiedDate = DateTime.Now;
                 checkAvailability.Team = null;
                 checkAvailability.TeamId = 0;
                 _uow.TeamMemberRepository.Update(checkAvailability);
