@@ -10,6 +10,8 @@ namespace TableTennis.Services.ScheduleService
     }
     public interface IScheduleMasterService
     {
+        public List<ScheduleMasterService> GetAllScheduleWithAllInfo();
 
+        public bool AutoSchedulingTeamMatches();
     }
 }
